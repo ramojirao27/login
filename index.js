@@ -7,7 +7,11 @@ app.post("/user",(req,res)=>{
     res.send("Hello user")
 })
 app.post("login",(req,res)=>{
-    res.send("Thank you for trying to login");
+    r
+    es.send("Thank you for trying to login");
+})
+app.get("/",(req,res)=>{
+    res.send("hello to all")
 })
 
 app.listen(5000,()=>{
